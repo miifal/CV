@@ -1,0 +1,54 @@
+body {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    padding: 10px;
+    width: 1000px;
+}
+
+.cabecera{
+    color:white;
+    background-color: teal;
+    padding: 0px;
+    margin: 0px;
+    font-size: 24pt;
+    padding-bottom: 0px;     
+}
+.titulo{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px
+}
+.datos {
+    font-size: 15px;
+}
+
+.apartados {
+    font-size: 15pt;
+    font-weight: bold;
+    color:teal;
+    background-color: orange;
+
+}
+
+.gessal {
+    
+    border-bottom:dotted 1px teal;
+
+}
+.tragsa {
+    margin-bottom: 40px;
+}
+.empresas {
+    font-size: 13pt; 
+    color:teal;
+    font-weight:bold;
+}
+.puesto  {
+    display: flex;
+    justify-content:space-between;
+}
+.resaltar {
+    font-weight: bold;
+}
