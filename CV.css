@@ -15,6 +15,10 @@ body {
     font-size: 24pt;
     padding-bottom: 0px;     
 }
+
+a {
+    color:yellow
+}
 .titulo{
     display: flex;
     justify-content:space-around;
@@ -52,3 +56,16 @@ body {
 .resaltar {
     font-weight: bold;
 }
+
+@media all and (min-width: 600px) {
+    body{
+        color:grey;
+           
+    }
+    .apartados{
+        background-color: teal; color:orange;       
+    }
+    .cabecera{
+        background-color: teal; color:orange
+
+    }
