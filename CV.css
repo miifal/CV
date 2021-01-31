@@ -22,7 +22,8 @@ a {
 .titulo{
     display: flex;
     justify-content:space-around;
-    margin: 0px
+    margin: 0px;
+    font-size: 40px
 }
 .datos {
     font-size: 15px;
@@ -60,12 +61,20 @@ a {
 @media all and (min-width: 600px) {
     body{
         color:grey;
+        justify-content:space-around;
+        text-align: justify;
            
     }
     .apartados{
-        background-color: teal; color:orange;       
+        background-color: teal; color:orange;
+        justify-content:space-around;       
     }
     .cabecera{
-        background-color: teal; color:orange
+        background-color: teal; color:orange;
+        justify-content:space-around;
 
     }
+    .titulo {
+        justify-content:space-around;
+    }
+}
