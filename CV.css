@@ -5,7 +5,7 @@ body {
     border-style: solid;
     padding: 10px;
     width: 1000px;
-    background:#eee;
+    
 }
 
 .cabecera{
@@ -13,7 +13,6 @@ body {
     background-color: teal;
     padding: 0px;
     margin: 10px;
-    
     padding-bottom: 0px;     
 }
 
@@ -38,7 +37,7 @@ a {
 
 }
 .datos {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .separado {
@@ -91,14 +90,8 @@ a {
         text-align: justify;
            
     }
-    .apartados{
+    .apartados, .cabecera{
         background-color: teal; color:orange;
         justify-content:space-around;       
-    }
-    
-    .cabecera{
-        background-color: teal; color:orange;
-        justify-content:space-around;
-
     }
     
