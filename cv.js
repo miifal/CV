@@ -17,8 +17,7 @@ document.body.appendChild(parrafo);
 // 
 
 
-const element = document.querySelector(".titulo");
-
+const selectButton = document.querySelector('button');
 function changeColor() {
-    element.style.backgroundColor = '#fff666';
-};
+    selectButton.style.backgroundColor = '#FBB13C';
+  };
