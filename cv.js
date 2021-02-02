@@ -1,11 +1,6 @@
 
 
 
-const element = document.querySelectorAll('.titulo');
-function cambiarColor() {
-    element.style.color = '#8F2D56';
-
-};
 
 
 
@@ -13,7 +8,17 @@ function cambiarColor() {
 
 const parrafo = document.createElement('p');
 
-const contenido = document.createTextNode('Update: Frbruary 2021');
+const contenido = document.createTextNode('Updated: February 2021, Madrid');
 
 parrafo.appendChild(contenido);
 document.body.appendChild(parrafo);
+
+
+// 
+
+
+const element = document.querySelector(".titulo");
+
+function changeColor() {
+    element.style.backgroundColor = '#fff666';
+};
